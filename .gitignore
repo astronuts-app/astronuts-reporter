@@ -5,8 +5,7 @@
 /node_modules
 /.pnp
 .pnp.js
-.scannerwork/
-coverage/
+
 # testing
 /coverage
 /reports
