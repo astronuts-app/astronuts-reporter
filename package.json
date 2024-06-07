@@ -1,6 +1,6 @@
 {
-  "name": "astronuts-reporter",
-  "version": "1.0.0",
+  "name": "@astronutsapp/astronuts-reporter",
+  "version": "0.0.1",
   "main": "index.js",
   "bin": {
     "astronuts-generate": "./index.js"
