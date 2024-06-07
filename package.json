@@ -1,0 +1,20 @@
+{
+  "name": "astronuts-reporter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "bin": {
+    "astronuts-generate": "./index.js"
+  },
+  "scripts": {
+    "test": "npx jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "commander": "^12.1.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
