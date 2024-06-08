@@ -9,7 +9,7 @@ program
     .version('1.0.0')
     .parse(process.argv);
 
-let customReporterPath = path.join(__dirname, 'lib/report-generator.js');
+let customReporterPath = path.join(__dirname, 'src/report-generator.js');
 let jestCommand = `npx jest --coverage --reporters=default --reporters="${customReporterPath}"`;
 
 try {

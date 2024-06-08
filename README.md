@@ -13,17 +13,17 @@ The library can be installed as shown below:
 
 ### Npm installation ###
 ```bash
-npm install astronuts-reporter --save-dev
+npm install @astronutsapp/astronuts-reporter --save-dev
 ```
 
 ### Yarn installation ###
 ```bash
-yarn add astronuts-reporter --dev
+yarn add @astronutsapp/astronuts-reporter --dev
 ```
 
 ### Pnpm installation ###
 ```bash
-pnpm add astronuts-reporter --save-dev
+pnpm add @astronutsapp/astronuts-reporter --save-dev
 ```
 
 ## Generating Reports ##
