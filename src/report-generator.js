@@ -21,7 +21,7 @@ class CustomReporter {
         xmlContent += '</testExecutions>';
 
         fs.mkdirSync(path.join(process.cwd(), 'reports'), { recursive: true });
-        fs.writeFileSync(path.join(process.cwd(), 'reports', 'junit.xml'), xmlContent);
+        fs.writeFileSync(path.join(process.cwd(), 'reports', 'xunit.xml'), xmlContent);
 
         return results;
     }

@@ -1,36 +1,44 @@
-[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-
 # Astronuts Reporter
 
-A package to generate reports for astronuts.
+Astronuts Reporter is a powerful tool that generates test reports. It's designed to be easy to use, yet flexible enough to handle complex testing scenarios.
 
-- This library generates a coverage report for the test files which astronuts uses.
-- It will also generate the test report for the test files which astronuts uses.
+## Installation
 
-## Installing ##
+To install Astronuts Reporter, open your terminal and run the following command:
 
-The library can be installed as shown below:
-
-### Npm installation ###
 ```bash
 npm install @astronutsapp/astronuts-reporter --save-dev
 ```
 
-### Yarn installation ###
-```bash
-yarn add @astronutsapp/astronuts-reporter --dev
-```
+This command installs Astronuts Reporter as a development dependency in your project.
 
-### Pnpm installation ###
-```bash
-pnpm add @astronutsapp/astronuts-reporter --save-dev
-```
+## Usage
 
-## Generating Reports ##
+To generate a test report, run the following command in your terminal:
 
-To use the library simply run:
-
-### Run the command ###
 ```bash
 npx astronuts-generate
 ```
+
+This command tells Astronuts Reporter to start generating test reports.
+
+## Integration with Build Scripts
+
+You can also integrate Astronuts Reporter into your build scripts for automatic report generation. This can be particularly useful in continuous integration (CI) environments where tests are run automatically.
+
+Here's an example of how you can add Astronuts Reporter to your `package.json` scripts:
+
+```json
+"scripts": {
+    "test": "npx jest && npx astronuts-generate"
+}
+```
+
+In this example, the `test` script first runs the tests using Jest, and then generates a test report using Astronuts Reporter. Now, whenever you run `npm test`, Astronuts Reporter will automatically generate a test report.
+
+## Conclusion
+
+Astronuts Reporter is a versatile tool that can help you better understand your test results. Whether you're a beginner or an experienced developer, Astronuts Reporter can make your testing process more efficient and informative. Happy coding!
+```
+
+This README file provides a detailed explanation of how to install and use Astronuts Reporter, and also explains how to integrate it into build scripts for automatic report generation.
