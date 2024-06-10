@@ -39,6 +39,6 @@ describe('CustomReporter', () => {
             '</testExecutions>';
 
         expect(fs.mkdirSync).toHaveBeenCalledWith(path.join(process.cwd(), 'reports'), { recursive: true });
-        expect(fs.writeFileSync).toHaveBeenCalledWith(path.join(process.cwd(), 'reports', 'junit.xml'), expectedXmlContent);
+        expect(fs.writeFileSync).toHaveBeenCalledWith(path.join(process.cwd(), 'reports', 'xunit.xml'), expectedXmlContent);
     });
 });
