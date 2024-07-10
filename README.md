@@ -50,5 +50,5 @@ Here's an example of how you can add Astronuts Reporter to your `package.json` s
 In this example, the `astronuts-generate` script runs the tests using Jest, and then generates a test report using
 Astronuts Reporter. Now, whenever your workflows runs the command `npm test`, Astronuts Reporter will automatically
 generate a test report.
-Note : For now we only support test written with jest library to generate reports.
+Note : For now we only support test written with jest library to generate test report data.
 ### Please note that this library is to be used in conjunction with the Astronuts code quality action. You can download the app from the [Github](https://github.com/marketplace/actions/astronuts-code-quality-action).
